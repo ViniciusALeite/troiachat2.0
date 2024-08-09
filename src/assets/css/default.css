@@ -1,0 +1,47 @@
+@import '../css/variables.css';
+@import '../components/buttons.css';
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.header-background {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-background-block {
+    background-image: url('../images/retangle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-pattern  {
+    background-image: url('../images/pattern.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-background-with-pattern {
+    background-image: url('../images/background_with_pattern.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blue-gradient-background {
+    background: rgb(17,129,243);
+    background: linear-gradient(172deg, rgba(17,129,243,1) 0%, rgba(17,129,243,1) 50%, rgba(16,119,223,1) 50%, rgba(16,119,223,1) 100%);
+}
+
+.gray-gradient-background {
+    background: rgb(251,251,251);
+    background: linear-gradient(172deg, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 50%, rgba(242,242,242,1) 50%, rgba(242,242,242,1) 100%);
+}

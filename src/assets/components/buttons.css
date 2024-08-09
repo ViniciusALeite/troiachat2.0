@@ -1,0 +1,66 @@
+@layer base {
+    .btn-micro {
+        @apply flex flex-row items-center justify-center gap-4 w-6 h-6 rounded-md text-xs text-[var(--text-buttons)] font-normal transition-all duration-200 ease-in-out;
+    }
+    
+    .btn-small {
+        @apply flex flex-row items-center justify-center gap-4 w-24 h-10 rounded-md text-sm text-[var(--text-buttons)] font-normal transition-all duration-200 ease-in-out;
+    }
+
+    .btn-medium {
+        @apply flex flex-row items-center justify-center gap-4 w-32 h-10 rounded-md text-sm text-[var(--text-buttons)] font-normal transition-all duration-200 ease-in-out;
+    }
+
+    .btn-large {
+        @apply flex flex-row items-center justify-center gap-4 w-40 h-10 rounded-md text-sm text-[var(--text-buttons)] font-normal transition-all duration-200 ease-in-out;
+    }
+
+    .btn-very-large {
+        @apply flex flex-row items-center justify-center gap-4 w-52 h-10 rounded-md text-sm text-[var(--text-buttons)] font-normal transition-all duration-200 ease-in-out;
+    }
+
+    .btn-extra-large {
+        @apply flex flex-row items-center justify-center gap-4 w-full h-10 rounded-md text-sm text-[var(--text-buttons)] font-normal transition-all duration-200 ease-in-out;
+    }
+
+    .btn-default {
+        @apply bg-[var(--indigo)] hover:bg-[var(--indigo-hover)] min-w-[38px];
+    }
+
+    .btn-file {
+        @apply h-6 w-6 rounded-full border-[1px] border-[var(-slate-500)] flex items-center justify-center text-[var(--text-paragraph)];
+    }
+
+    .btn-secondary {
+        @apply bg-[var(--button-secondary-background)] hover:bg-[var(--button-secondary-hover)];
+    }
+
+    .btn-disabled,
+    .btn-disabled:hover{
+        @apply bg-[var(--button-disabled)];
+    }
+
+    .btn-success {
+        @apply bg-[var(--success)] hover:bg-[var(--success-hover)];
+    }
+
+    .btn-warning {
+        @apply bg-[var(--warning)] hover:bg-[var(--warning-hover)];
+    }
+
+    .btn-error {
+        @apply bg-[var(--error)] hover:bg-[var(--error-hover)];
+    }
+
+    .btn-info {
+        @apply bg-[var(--info)] hover:bg-[var(--info-hover)];
+    }
+
+    .btn-navy {
+        @apply bg-[var(--navy-button-background)] hover:bg-[var(--navy-hover-button)];
+    }
+
+    .btn-red {
+        @apply bg-[var(--red)] hover:bg-[var(--red-hover)];
+    }
+}

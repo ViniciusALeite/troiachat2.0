@@ -1,0 +1,22 @@
+body {
+    --primary-color: #1181F3;
+    --secondary-color: #22272B;
+    --tertiary-color: #7A7A7A;
+
+    --box-header-background: #EFF1F2;
+    --box-conversation-text: #828992;
+
+    --features-text-title: #22272B;
+    --features-text: #828992;
+
+    --tabs-background: #3D4145;
+
+    --default-border: #E2E2E2;
+
+    --testimonial-background: #f1f5f9;
+    --slim-pagination: #D9D9D9;
+
+    --questions-background: #EEF2F5;
+
+    --footer-background: #EFF1F2;
+}
